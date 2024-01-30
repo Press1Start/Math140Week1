@@ -6,6 +6,9 @@ public class weekOne {
         Scanner keyboard = new Scanner(System.in);
         String name = keyboard.next();
         System.out.println("Hello " + name + "!");
+        System.out.println("How long have you been coding?");
+        String answer = keyboard.next();
+        System.out.println("Wow, great job " + name + ".");
 
     }
 }
