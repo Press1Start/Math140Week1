@@ -9,6 +9,11 @@ public class weekOne {
         System.out.println("How long have you been coding?");
         String answer = keyboard.next();
         System.out.println("Wow, great job " + name + ".");
+        String space = keyboard.nextLine();
+        System.out.println("Welcome to my house! Would you like something to drink?");
+        String response = keyboard.next();
+        System.out.println("Awesome! " + name + " I will see if I can bring you that right away!");
+
 
     }
 }
